@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -17,20 +16,22 @@
     <video style="background: #e2e2e2" id="recorded" playsinline loop></video>
 
     <div>
-        <button id="start">Start camera</button>
-        <button id="record" disabled>Start Recording</button>
-        <button id="play" disabled>Play</button>
-        <button id="download" disabled>Download</button>
+        <button id="start">开启录屏状态</button>
+        <button id="record" disabled>开始录制</button>
+        <button id="play" disabled>播放录制视频</button>
+        <button id="download" disabled>下载录制视频</button>
     </div>
 
     <div>
-        <h4>Media Stream Constraints options</h4>
-        <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p>
+        <h4>媒体流选项</h4>
+        <p>消除回声: <input type="checkbox" id="echoCancellation"></p>
     </div>
 
     <div>
         <span id="errorMsg"></span>
     </div>
+
+    <audio id="audio"></audio>
 
 </div>
 

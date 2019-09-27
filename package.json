@@ -10,5 +10,6 @@
     "dev": "parcel example/index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
