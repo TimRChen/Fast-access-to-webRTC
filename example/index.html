@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="WebRTC code samples">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side WebRTC code samples">
+    <meta itemprop="name" content="WebRTC code samples">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+    <title>MediaStream Recording</title>
+<body>
+
+<div id="container">
+
+    <video style="background: #e2e2e2" id="gum" playsinline autoplay muted></video>
+    <video style="background: #e2e2e2" id="recorded" playsinline loop></video>
+
+    <div>
+        <button id="start">Start camera</button>
+        <button id="record" disabled>Start Recording</button>
+        <button id="play" disabled>Play</button>
+        <button id="download" disabled>Download</button>
+    </div>
+
+    <div>
+        <h4>Media Stream Constraints options</h4>
+        <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p>
+    </div>
+
+    <div>
+        <span id="errorMsg"></span>
+    </div>
+
+</div>
+
+<!-- include adapter for srcObject shim -->
+<script src="../src/index.js" async></script>
+
+</body>
+</html>

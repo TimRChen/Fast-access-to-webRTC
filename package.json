@@ -1,0 +1,14 @@
+{
+  "name": "dev-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "parcel example/index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
